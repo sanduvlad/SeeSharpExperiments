@@ -1,4 +1,5 @@
 ﻿using System;
+using TypesOfClasses.ClassStructure;
 
 namespace TypesOfClasses
 {
@@ -7,6 +8,8 @@ namespace TypesOfClasses
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            var square = new Square();
         }
     }
 }
